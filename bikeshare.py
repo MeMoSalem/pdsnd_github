@@ -17,7 +17,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s explore some U.S.A bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city_input = input('which city you want Chicago, New York City or Washington ?\n').lower().title()
     
@@ -162,7 +162,7 @@ def user_stats(df,city):
    
     
     # TO DO: Display earliest, most recent, and most common year of birth
-    if(city == 'chicago.csv') or (city == 'new_york_city.csv'):
+    if(city != 'washington.csv'):
         print('\nGender Count:-\n{}'.format(df['Gender'].value_counts()))
         print('\nEarliest year of birth is {}'.format(int(df['Birth Year'].min())))
         print('\nMost recent year of birth is {}'.format(int(df['Birth Year'].max())))
