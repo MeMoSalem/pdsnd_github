@@ -54,7 +54,7 @@ def get_filters():
         else:
             day_input = input('invalid day ! please try again ... (Hint: sunday)\n').lower()
 
-    #print('so the city u choose is {}, and {}, {}'.format(city,month,day))
+    
     print('-'*40)
     
     return city, month, day
@@ -168,7 +168,7 @@ def user_stats(df,city):
         print('\nMost recent year of birth is {}'.format(int(df['Birth Year'].max())))
         print('\nMost common year of birth {}'.format(df['Birth Year'].value_counts().head(1)))            
         
-    
+    # Giving the user the choice of looking at the raw data
     start_index = 0
     end_index = 5 
     while True:
