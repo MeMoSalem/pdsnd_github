@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+Wed, 25/09/2019
 
 ### Project Title
-Replace the Project Title
+BikeShare
 
 ### Description
-Describe what your project is about and what it does
+This project lists data about the bikesharing in 3 cities in the U.S
+{Chicago, N.Y and Washington DC}
 
 ### Files used
-Include the files used
+In order to get the data up on user demand filtered or full we get it from three .csv files one for each city  
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Forked from https://github.com/udacity/pdsnd_github
