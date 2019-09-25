@@ -162,7 +162,7 @@ def user_stats(df,city):
    
     
     # TO DO: Display earliest, most recent, and most common year of birth
-    if(city == 'chicago.csv') or (city == 'new_york_city.csv'):
+    if(city != 'washington.csv'):
         print('\nGender Count:-\n{}'.format(df['Gender'].value_counts()))
         print('\nEarliest year of birth is {}'.format(int(df['Birth Year'].min())))
         print('\nMost recent year of birth is {}'.format(int(df['Birth Year'].max())))
